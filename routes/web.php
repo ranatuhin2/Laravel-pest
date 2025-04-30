@@ -20,3 +20,8 @@ Route::get('/test', function(){
     echo "Learning Pest Laravel Testing";
 });
 
+
+
+Route::get('/another-test', function(){
+    echo "Another Test Route";
+});
