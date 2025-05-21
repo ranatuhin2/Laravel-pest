@@ -21,6 +21,8 @@ Route::get('/test', function(){
 });
 
 
+Route::get('testing-font', [ProductController::class, 'testingFont']);
+
 
 Route::get('/another-test', function(){
     echo "Another Test Route";
